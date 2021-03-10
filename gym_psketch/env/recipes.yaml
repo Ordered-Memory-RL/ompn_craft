@@ -1,0 +1,58 @@
+environment:
+  - boundary
+  - water
+  - stone
+
+workshops:
+  - toolshed
+  - workbench
+  - factory
+
+primitives:
+  - iron
+  - grass
+  - wood
+  - gold
+  - gem
+
+recipes:
+  plank:
+    wood: 1
+    _at: toolshed
+
+  axe:
+    stick: 1
+    iron: 1
+    _at: toolshed
+
+  rope:
+    grass: 1
+    _at: toolshed
+
+  stick:
+    wood: 1
+    _at: workbench
+
+  bed:
+    plank: 1
+    grass: 1
+    _at: workbench
+
+  shears:
+    stick: 1
+    iron: 1
+    _at: workbench
+
+  cloth:
+    grass: 1
+    _at: factory
+
+  bridge:
+    wood: 1
+    iron: 1
+    _at: factory
+
+  ladder:
+    plank: 1
+    stick: 1
+    _at: factory

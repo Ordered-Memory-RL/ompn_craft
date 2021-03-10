@@ -1,0 +1,12 @@
+--envs=makebedfull-v0,makeshearsfull-v0,makeaxefull-v0
+--eval_episodes=30
+--height=10
+--max_steps=64
+--mode=taco
+--width=10
+--taco_batch_size=256
+--taco_eval_freq=10
+--taco_lr=0.001
+--taco_train_steps=4000
+--taco_dropout=0.7
+--taco_do_decay_ratio=0.8

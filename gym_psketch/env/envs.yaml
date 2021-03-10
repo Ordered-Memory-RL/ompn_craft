@@ -1,0 +1,51 @@
+"get wood":
+  goal: "wood"
+  sketchs: ["get wood"]
+
+"get grass":
+  goal: "grass"
+  sketchs: ["get grass"]
+
+"get iron":
+  goal: "iron"
+  sketchs: ["get iron"]
+
+"make plank":
+  goal: "plank"
+  sketchs: ["get wood", "make at toolshed"]
+
+"make stick":
+  goal: "stick"
+  sketchs: ["get wood", "make at workbench"]
+
+"make cloth":
+  goal: "cloth"
+  sketchs: ["get grass", "make at factory"]
+
+"make rope":
+  goal: 'rope'
+  sketchs: ["get grass", "make at toolshed"]
+
+"make bridge":
+  goal: "bridge"
+  sketchs: ["get iron", "get wood", "make at factory"]
+
+"make bed":
+  goal: "bed"
+  sketchs: ["get wood", "make at toolshed", "get grass", "make at workbench"]
+
+"make axe":
+  goal: "axe"
+  sketchs: ["get wood", "make at workbench", "get iron", "make at toolshed"]
+
+"make shears":
+  goal: "shears"
+  sketchs: ["get wood", "make at workbench", "get iron", "make at workbench"]
+
+"get gold":
+  goal: "gold"
+  sketchs: ["get iron", "get wood", "make at factory", "get gold"]
+
+"get gem":
+  goal: "gem"
+  sketchs: ["get wood", "make at workbench", "get iron", "make at toolshed", "get gem"]
